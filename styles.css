@@ -1,11 +1,16 @@
-
-/* Your CSS Code here. */
-.holder{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
- 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
 }
 
-
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  transition: background-color 1s;
+  margin-bottom: 10px;
 }
